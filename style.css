@@ -1,3 +1,33 @@
+body {
+      background: #e5e5e5;
+      font-family: "Open Sans", sans-serif;
+      font-size: 14px;
+      color: #000;
+      margin: 0 auto
+    }
+
+    @media screen and (min-width:1000px) {
+      body {
+        background: url("") repeat
+      }
+    }
+
+    a {
+      color: #303f9f;
+      text-decoration: none
+    }
+
+    #content-wrap {
+      max-width: 1000px;
+      background: #f6f6f6;
+      margin: auto;
+      padding-bottom: 2px;
+      -webkit-box-shadow: 0 13px 13px 0 rgba(0, 0, 0, .4);
+      -moz-box-shadow: 0 13px 13px 0 rgba(0, 0, 0, .4);
+      box-shadow: 0 13px 13px 0 rgba(0, 0, 0, .4)
+    }
+
+
 @media screen and (min-width:1000px) {
           .nganan {
             display: table-cell;
